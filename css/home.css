@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+.navbar{
+    display: flex;
+    background-color: #232536;
+    justify-content: space-between;
+    padding: 26px 160px 26px 160px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
