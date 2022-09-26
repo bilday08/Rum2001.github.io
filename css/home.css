@@ -22,98 +22,166 @@ body {
     display: flex;
     gap: 32px;
 }
-.a-header{
+
+.a-header {
     color: white;
     opacity: 0.6;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.a-header:hover{
+
+.a-header:hover {
     opacity: 1;
     color: white;
 }
-.clone-progress:hover{
+
+.clone-progress:hover {
     color: #FFD3AF;
 
 }
-.clone-progress{
+
+.clone-progress {
     color: #FFD3AF;
 }
-.header{
+
+.header {
     background-color: #232536;
     color: white;
 }
-h1{
+
+h1 {
     font-weight: 600;
     font-size: 56px;
     line-height: 68px;
 }
-p{
+
+p {
     opacity: 0.6;
 }
-img{
+
+img {
     object-fit: cover;
-    
+
 }
-.image{
+
+.image {
     width: 100%;
     height: 100%;
 }
-.flex{
+
+.flex {
     display: flex;
     align-items: center;
 }
-.dot{
+
+.dot {
     width: 24px;
     height: 24px;
     background-color: rgba(255, 255, 255, 0.06);
     transform: rotate(-90deg);
 }
 
-.text-opacity-normal{
+.text-opacity-normal {
     opacity: 1;
 }
 
-.button{
+.button {
     opacity: 1;
 }
-.about-us{
+
+.about-us {
     background-color: white;
     color: #000000;
     padding: 120px 160px 120px 160px;
 }
-.a-about-us{
+
+.a-about-us {
     color: black;
 }
-.h2-content-us{
+
+.h2-content-us {
 
     font-weight: 600;
     font-size: 48px;
     line-height: 58px;
     color: #232536;
 }
-.about-top p{
-    color:#5D5F6D ;
+
+.about-top p {
+    color: #5D5F6D;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
-.about-top h3{
+
+.about-top h3 {
     color: #232536;
     font-weight: 600;
     font-size: 36px;
     line-height: 54px;
 }
-.numbers h3{
+
+.numbers h3 {
     font-weight: 600;
-    font-size: 36px;    
+    font-size: 36px;
     line-height: 54px;
 
 }
-.numbers p{
+
+.numbers p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    color: #000000;
+}
+
+.expertise-section {
+    background-color: #ECF8F9;
+    padding: 160px;
+}
+
+.exp {
+    background-color: #fff;
+}
+
+.shapes-ex {
+    width: 16px;
+    height: 16px;
+    background-color: #444CFC;
+}
+
+.ex-tx a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    opacity: 0.87;
+
+}
+
+.ex-tx h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    /* or 121% */
+
+
+    color: #232536;
+
+}
+
+.content h6 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+
     color: #000000;
 }
