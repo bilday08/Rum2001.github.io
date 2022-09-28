@@ -185,3 +185,14 @@ img {
 
     color: #000000;
 }
+
+.our-service {
+    background-color: #FFE6D2;
+}
+
+.h2-content-us h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+}
