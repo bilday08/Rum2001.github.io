@@ -50,9 +50,6 @@ h1 {
     line-height: 68px;
 }
 
-p {
-    opacity: 0.6;
-}
 
 img {
     object-fit: cover;
@@ -213,7 +210,7 @@ img {
 
 .oscard {
     padding: 48px;
-    margin: 12px;
+    margin: 50px;
 }
 
 .oscard h6 {
@@ -270,13 +267,4 @@ img {
 
     opacity: 0.87;
 }
-.shapes-os{
-    
-position: absolute;
-width: 29px;
-height: 27px;
-left: 1440px;
-top: 3739px;
 
-transform: rotate(90deg);
-}
