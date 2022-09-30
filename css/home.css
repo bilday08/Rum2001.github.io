@@ -268,3 +268,24 @@ img {
     opacity: 0.87;
 }
 
+.card-content div {
+    float: right;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    /* Black */
+
+    color: #232536;
+
+    opacity: 0.2;
+}
+.shp{
+    margin-right: 20px;
+}
+.quote{
+    float: right;
+}
