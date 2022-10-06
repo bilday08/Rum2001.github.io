@@ -1,0 +1,168 @@
+@media(max-width: 576px) {
+    .content h2 {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.logo {
+    width: 35%;
+}
+
+.navbar-nav {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-item a {
+    color: white;
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active a {
+    opacity: 1;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar {
+    background-color: #232536;
+}
+
+.our-service {
+    background-color: #FFE6D2;
+    padding: 6rem 0 6rem 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.our-service a {
+    color: black;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.frame a {
+    font-weight: 500;
+    font-size: 0, 875rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.items {
+    border: 1px solid rgba(35, 37, 54, 0.17);
+    padding: 1rem;
+    margin-right: 1rem;
+
+}
+
+.our-progress {
+    padding: 6rem 0 6rem 0;
+}
+
+.title a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    opacity: 0.87;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* or 150% */
+
+
+    color: #232536;
+    opacity: 0.87;
+}
+
+.card-content div {
+    float: right;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* identical to box height, or 133% */
+
+
+    /* Black */
+
+    color: #232536;
+
+    opacity: 0.2;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    /* identical to box height, or 175% */
+
+
+    color: #000000;
+}
+
+.flex {
+    display: flex;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+

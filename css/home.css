@@ -14,39 +14,28 @@ body {
     font-size: medium;
 }
 
-.navbar {
-    background-color: #232536;
-    padding: 1.625rem 0 1.625rem 0;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+.logo{
+    width: 35%;
 }
-
-.menu {
-    width: 70%;
+.navbar-nav{
+justify-content: space-between;
+width: 100%;
 }
-
-
-
-.a-header {
+.nav-item a{
     color: white;
-    opacity: 0.6;
+    opacity:0.7 ;
 }
-
-a {
+a{
     text-decoration: none;
 }
-
-.a-header:hover {
+.active a{
     opacity: 1;
-    color: white;
 }
-
-.clone-progress:hover {
-    color: #FFD3AF;
-
+.navbar-toggler{
+    background-color: white;
 }
-
-.clone-progress {
-    color: #FFD3AF;
+.navbar{
+    background-color: #232536;
 }
 
 .header {
@@ -57,8 +46,8 @@ a {
 
 h1 {
     font-weight: 600;
-    font-size: 3.5rem;
-    line-height: 4.25rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
 }
 
 
@@ -103,10 +92,9 @@ img {
 }
 
 .h2-content-us {
-
     font-weight: 600;
-    font-size: 3rem;
-    line-height: 3.625rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     color: #232536;
 }
 
@@ -169,7 +157,7 @@ img {
 .ex-tx h2 {
     font-weight: 600;
     font-size: 2rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
     /* or 121% */
 
 
@@ -195,14 +183,14 @@ img {
 .h2-content-us h2 {
     font-style: normal;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3.625rem;
 }
 
 .our-service-top h2 {
     font-style: medium;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3.625rem;
 }
 
@@ -233,8 +221,9 @@ img {
 
 .items {
     border: 1px solid rgba(35, 37, 54, 0.17);
-    padding: 1.25rem;
-    margin: 1rem;
+    padding: 1rem;
+    margin-right:1rem ;
+
 }
 
 .our-progress {
@@ -259,7 +248,7 @@ img {
 .heading-2 h2 {
     font-style: normal;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3.625rem;
     /* or 121% */
 
@@ -350,7 +339,7 @@ img {
 .text,
 .input {
     width: 85%;
-    height: 3rem;
+    height: 2.5rem;
 }
 
 .cta-content {
@@ -379,7 +368,7 @@ h3 {
 .heading h2 {
     font-style: normal;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3.625rem;
     /* or 121% */
 
@@ -425,4 +414,12 @@ float: right;
 }
 .title{
     width: 25%;
+}
+@media(max-width:991px) {
+    .header-logo{
+        display: none;
+    }
+    .title{
+        width: 100%;
+    }
 }
