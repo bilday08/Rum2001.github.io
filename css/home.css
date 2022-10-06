@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -421,5 +422,8 @@ float: right;
     }
     .title{
         width: 100%;
+    }
+    .cta-section{
+        display: none;
     }
 }
