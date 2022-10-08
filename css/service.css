@@ -253,10 +253,66 @@ h3 {
 .footer-bottom {
     background-color: #FFE6D2;
 }
-.ft-bt-logo img{
+
+.ft-bt-logo img {
     margin-right: 2rem;
 }
 
+/*Company*/
+.dot {
+    width: 24px;
+    height: 24px;
+    background-color: #FFD3AF;
+}
+
+.company-header {
+    margin-top: 6rem;
+}
+
+.caption a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+.caption{
+    margin-top: 2rem;
+}
+.story-right{
+    background-color: rgba(255, 211, 175, 0.57);
+    padding: 3rem;
+}
+.blue{
+    background-color: #444CFC;
+}
+.pink{
+    background-color: #FFD3AF;
+
+}
+.orange{
+    background-color: #FFA155;
+}
+.logo-bar{
+    background-color: #FAFAFC   ;
+}
+.expertise-section {
+    background-color: #ECF8F9;
+    padding: 6rem 0 6rem 0;
+}
+.exp {
+    background-color: #fff;
+}
+.ex-tx h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
 @media(max-width: 576px) {
     .content h2 {
         font-size: 2.25rem;
@@ -272,7 +328,7 @@ h3 {
     .feature-4,
     .feature-5 {
         padding: 0 0 3rem 0;
-    }   
+    }
 
     .feature-items {
         margin-bottom: 2rem;
@@ -294,7 +350,24 @@ h3 {
     .contact-link {
         float: left;
     }
-    .logo-social{
+
+    .logo-social {
+        display: none;
+    }
+    .story-right{
+        display: none;
+    }
+    .cp-header-heading h2{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .ex-tx h2{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
+@media (max-width:1024px) {
+    .logo-bar{
         display: none;
     }
 }
