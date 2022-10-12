@@ -313,6 +313,45 @@ h3 {
     font-size: 2.5rem;
     line-height: 3rem;
 }
+.our-vision{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.heading-our-vision{
+    margin-bottom: 1rem;
+}
+.heading-our-vision a{
+    color: #000000;
+}
+.img-items{
+    padding: 0;
+}
+.meet-our-teams a{
+    color: #000000;
+}
+.meet-our-teams{
+    margin: 6rem 0 6rem 0;
+}
+/*carreer*/
+.caption-carreer a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+.carreer-caption{
+    width: 90%;
+}
+.header-carreer{
+    margin-top: 6rem;
+}
 @media(max-width: 576px) {
     .content h2 {
         font-size: 2.25rem;
@@ -357,17 +396,24 @@ h3 {
     .story-right{
         display: none;
     }
-    .cp-header-heading h2{
-        font-size: 2rem;
-        line-height: 2.5rem;
-    }
+
     .ex-tx h2{
         font-size: 2rem;
         line-height: 2.5rem;
+    }
+    .vision-img{
+        padding: 1rem;
+    }
+    .img-items{
+        margin-bottom: 2rem;
     }
 }
 @media (max-width:1024px) {
     .logo-bar{
         display: none;
+    }
+    .cp-header-heading h2{
+        font-size: 2rem;
+        line-height: 2.5rem;
     }
 }

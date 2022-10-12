@@ -442,6 +442,9 @@ img {
 .ft-bt-logo img{
     margin-right: 2rem;
 }
+.footer{
+    margin-top: 6rem;
+}
 
 @media(max-width: 576px) {
     .content h2 {
