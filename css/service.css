@@ -545,5 +545,11 @@ h3 {
     .tab-career-content{
         padding:1rem;
     }
-
+   
+}
+@media (max-width:576px) {
+    .form-check-input{
+        width: 3em;
+        height: 1em;
+    }
 }
