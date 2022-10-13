@@ -282,76 +282,165 @@ h3 {
     color: #000000;
 
 }
-.caption{
+
+.caption {
     margin-top: 2rem;
 }
-.story-right{
+
+.story-right {
     background-color: rgba(255, 211, 175, 0.57);
     padding: 3rem;
 }
-.blue{
+
+.blue {
     background-color: #444CFC;
 }
-.pink{
+
+.pink {
     background-color: #FFD3AF;
 
 }
-.orange{
+
+.orange {
     background-color: #FFA155;
 }
-.logo-bar{
-    background-color: #FAFAFC   ;
+
+.logo-bar {
+    background-color: #FAFAFC;
 }
+
 .expertise-section {
     background-color: #ECF8F9;
     padding: 6rem 0 6rem 0;
 }
+
 .exp {
     background-color: #fff;
 }
-.ex-tx h2{
+
+.ex-tx h2 {
     font-size: 2.5rem;
     line-height: 3rem;
 }
-.our-vision{
+
+.our-vision {
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
-.heading-our-vision{
+
+.heading-our-vision {
     margin-bottom: 1rem;
 }
-.heading-our-vision a{
+
+.heading-our-vision a {
     color: #000000;
 }
-.img-items{
+
+.img-items {
     padding: 0;
 }
-.meet-our-teams a{
+
+.meet-our-teams a {
     color: #000000;
 }
-.meet-our-teams{
+
+.meet-our-teams {
     margin: 6rem 0 6rem 0;
 }
+
 /*carreer*/
-.caption-carreer a{
+.caption-carreer a {
     font-style: normal;
     font-weight: 500;
     font-size: 0.875rem;
-    line-height: 1rem;
+    line-height: 1.25rem;
     /* identical to box height, or 143% */
 
     letter-spacing: 3px;
     text-transform: uppercase;
 
-    color: #000000;
+    /* Black */
 
+    color: #232536;
 }
-.carreer-caption{
+
+.carreer-caption {
     width: 90%;
 }
-.header-carreer{
-    margin-top: 6rem;
+
+.header-carreer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #FAFAFC;
 }
+
+.content-header-carreer {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    /* or 121% */
+
+
+    /* Black */
+
+    color: #232536;
+}
+
+.more-option a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    /* identical to box height, or 156% */
+
+
+    color: #232536;
+
+}
+.carreer-section{
+    background-color: #FAFAFC;
+    padding-bottom: 6rem;
+}
+
+.carreer-section .container {
+    background-color: #ECF8F9;
+    padding: 4rem;
+}
+
+.content-section h6 {
+    font-style:normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.825rem;
+    /* identical to box height, or 175% */
+
+
+    /* Black */
+
+    color: #232536;
+
+}
+.content-section p{
+    opacity: 0.6;
+}
+
+.section-item {
+    background-color: #fff;
+    padding: 2rem;
+}
+.out-work p{
+    opacity: 0.6;
+}
+.our-work{
+    background-color: #FAFAFC;
+    padding-bottom: 6rem;
+}
+.cards{
+    background-color: #fff;
+    padding: 1rem;
+}
+
 @media(max-width: 576px) {
     .content h2 {
         font-size: 2.25rem;
@@ -393,26 +482,31 @@ h3 {
     .logo-social {
         display: none;
     }
-    .story-right{
+
+    .story-right {
         display: none;
     }
 
-    .ex-tx h2{
+    .ex-tx h2 {
         font-size: 2rem;
         line-height: 2.5rem;
     }
-    .vision-img{
+
+    .vision-img {
         padding: 1rem;
     }
-    .img-items{
+
+    .img-items {
         margin-bottom: 2rem;
     }
 }
+
 @media (max-width:1024px) {
-    .logo-bar{
+    .logo-bar {
         display: none;
     }
-    .cp-header-heading h2{
+
+    .cp-header-heading h2 {
         font-size: 2rem;
         line-height: 2.5rem;
     }
