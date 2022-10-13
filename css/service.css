@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Bold;
+    src: url(/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
 * {
     padding: 0;
     margin: 0;
@@ -9,11 +17,16 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: medium;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: Bold;
+}
+p,a{
+    font-family: Regular;
+}
 .logo {
     width: 35%;
 }
@@ -63,7 +76,7 @@ img {
 }
 
 h2 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 3rem;
     line-height: 3.5rem;
 }
@@ -81,7 +94,7 @@ h2 {
 
 h4 {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.5rem;
     line-height: 2rem;
 }
@@ -126,7 +139,7 @@ p {
 .card-content div {
     float: right;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.5rem;
     line-height: 2rem;
     /* identical to box height, or 133% */
@@ -140,7 +153,7 @@ p {
 }
 
 h6 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
     line-height: 1.8rem;
     /* identical to box height, or 175% */
@@ -155,7 +168,7 @@ h6 {
 
 h3 {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2rem;
     line-height: 3rem;
 }
@@ -202,13 +215,13 @@ h3 {
 
 .footer-top h2 {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 3.5rem;
 }
 
 .footer-top h4 {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
     line-height: 2rem;
     /* identical to box height, or 150% */
@@ -224,7 +237,7 @@ h3 {
 .page a {
     font-style: normal;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -244,7 +257,7 @@ h3 {
 .contact-link a {
     font-style: normal;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5rem;
     margin-bottom: 1rem;
 
@@ -376,7 +389,7 @@ h3 {
 
 .content-header-carreer {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 3rem;
     line-height: 3.625rem;
     /* or 121% */
@@ -410,7 +423,7 @@ h3 {
 
 .content-section h6 {
     font-style:normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
     line-height: 1.825rem;
     /* identical to box height, or 175% */
@@ -439,6 +452,25 @@ h3 {
 .cards{
     background-color: #fff;
     padding: 1rem;
+}
+/*inner-career*/
+.shapes-logo{
+    float: right;
+}
+.job-description{
+    background-color: #FFE0C7;
+}
+.header-inner-career{
+    padding: 6rem 0 6rem 0;
+}
+.tab-career .container{
+    background-color: #ECF8F9;
+}
+.tab-career-content{
+    padding: 6rem;
+}
+.form-apply{
+    padding: 6rem 0 6rem 0;
 }
 
 @media(max-width: 576px) {
@@ -510,4 +542,8 @@ h3 {
         font-size: 2rem;
         line-height: 2.5rem;
     }
+    .tab-career-content{
+        padding:1rem;
+    }
+
 }

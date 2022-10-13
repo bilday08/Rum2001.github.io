@@ -1,4 +1,12 @@
 
+@font-face {
+    font-family: Bold;
+    src: url(/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
 * {
     padding: 0;
     margin: 0;
@@ -13,6 +21,12 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: medium;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Bold;
+}
+p,a{
+    font-family: Regular;
 }
 
 .logo{
