@@ -23,7 +23,6 @@ body {
     font-weight: 500;
     font-size: medium;
 }
-
 h1,h2,h3,h4,h5,h6{
     font-family: Bold;
 }
@@ -496,6 +495,10 @@ h3 {
 }
 .all-post{
     padding-bottom: 6rem;
+}
+/*inner-blog*/
+.header-inner-blog{
+    padding: 6rem 0 6rem 0;
 }
 @media(max-width: 576px) {
     .content h2 {
