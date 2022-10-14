@@ -565,6 +565,9 @@ h3 {
     .img-items {
         margin-bottom: 2rem;
     }
+    .text{
+        text-align: start;
+    }
 }
 
 @media (max-width:1024px) {
