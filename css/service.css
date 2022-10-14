@@ -500,6 +500,13 @@ h3 {
 .header-inner-blog{
     padding: 6rem 0 6rem 0;
 }
+.text{
+    padding: 6rem;
+    text-align: justify;
+}
+.text-box{
+
+}
 @media(max-width: 576px) {
     .content h2 {
         font-size: 2.25rem;
