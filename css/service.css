@@ -653,6 +653,9 @@ h3 {
    .all-post .row{
     margin-bottom: 0;
    }
+   .privacy{
+    padding: 2rem 2rem;
+   }
 }
 @media (max-width:576px) {
     .form-check-input{
