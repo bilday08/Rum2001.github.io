@@ -504,9 +504,23 @@ h3 {
     padding: 6rem;
     text-align: justify;
 }
-.text-box{
-
+/*Team-Page*/
+.avatar{
+    padding: 6rem 0 6rem 0;
 }
+.social-blog{
+    width: 8rem;
+    height: auto;
+}
+.blog-section-page{
+    background-color: #ECF8F9;
+    padding: 6rem 0;
+    margin-bottom: 6rem;
+}
+.blog-card{
+    background-color: #fff;
+}
+
 @media(max-width: 576px) {
     .content h2 {
         font-size: 2.25rem;
@@ -567,6 +581,9 @@ h3 {
     }
     .text{
         text-align: start;
+    }
+    .blog-card{
+        margin-bottom: 2rem;
     }
 }
 
