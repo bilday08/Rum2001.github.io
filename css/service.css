@@ -520,7 +520,55 @@ h3 {
 .blog-card{
     background-color: #fff;
 }
-
+/* Contact-page*/
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+}
+.input-wrapper input{
+    all: unset;
+    border-bottom: 1px solid #3d405b;
+}
+.input-wrapper textarea{
+    all: unset;
+    border-bottom: 1px solid #3d405b;
+}
+.form-contact-us{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.address-form{
+    background-color: #666DFF;
+    padding: 4rem;
+}
+.text-white p, .text-white h6{
+    color: white;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.right-shapes{
+    display: flex;
+    justify-content: end;
+}
+.form-contact{
+    padding: 6rem 0;
+}
+.map{
+    padding: 6rem 0;
+}
+.header-policy{
+    padding: 6rem 0;
+}
+.privacy{
+    padding: 4rem 6rem;
+    background-color: #ECF8F9;
+}
 @media(max-width: 576px) {
     .content h2 {
         font-size: 2.25rem;
